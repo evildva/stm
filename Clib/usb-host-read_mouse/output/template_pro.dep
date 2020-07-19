@@ -1,0 +1,771 @@
+Dependencies for Project 'template', Target 'pro': (DO NOT MODIFY !)
+F (.\spl\src\stm32f4xx_gpio.c)(0x5CEFC481)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\stm32f4xx_gpio.o --omf_browse .\output\stm32f4xx_gpio.crf --depend .\output\stm32f4xx_gpio.d)
+I (.\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (.\cmsis\stm32f4xx.h)(0x5D21C805)
+I (.\cmsis\core_cm4.h)(0x5CEFC480)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (.\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (.\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (.\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (.\spl\inc\misc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+F (.\spl\src\stm32f4xx_usart.c)(0x5CEFC481)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\stm32f4xx_usart.o --omf_browse .\output\stm32f4xx_usart.crf --depend .\output\stm32f4xx_usart.d)
+I (.\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (.\cmsis\stm32f4xx.h)(0x5D21C805)
+I (.\cmsis\core_cm4.h)(0x5CEFC480)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (.\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (.\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (.\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (.\spl\inc\misc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+F (.\spl\src\stm32f4xx_rcc.c)(0x5CEFC481)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\stm32f4xx_rcc.o --omf_browse .\output\stm32f4xx_rcc.crf --depend .\output\stm32f4xx_rcc.d)
+I (.\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (.\cmsis\stm32f4xx.h)(0x5D21C805)
+I (.\cmsis\core_cm4.h)(0x5CEFC480)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (.\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (.\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (.\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (.\spl\inc\misc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+F (.\spl\src\misc.c)(0x5CEFC481)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\misc.o --omf_browse .\output\misc.crf --depend .\output\misc.d)
+I (.\spl\inc\misc.h)(0x5CEFC481)
+I (.\cmsis\stm32f4xx.h)(0x5D21C805)
+I (.\cmsis\core_cm4.h)(0x5CEFC480)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (.\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (.\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (.\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+F (.\user\main.c)(0x5D847C24)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (user\main.h)(0x5CEFC481)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (user\usart.h)(0x5CEFC481)
+I (.\cmsis\stm32f4xx.h)(0x5D21C805)
+I (.\cmsis\core_cm4.h)(0x5CEFC480)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (.\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (.\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (.\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (.\spl\inc\misc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+I (.\usbconfig\usb_conf.h)(0x5D844AE6)
+I (.\otg\inc\usb_bsp.h)(0x5D8459CE)
+I (.\otg\inc\usb_core.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_regs.h)(0x5D81AC06)
+I (.\otg\inc\usb_defines.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_hcd_int.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_hcd.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_core.h)(0x5D844C19)
+I (.\host\Core\inc\usbh_def.h)(0x5D844BD7)
+I (.\usbconfig\usbh_conf.h)(0x5B8FE0D0)
+I (.\host\Class\MSC\inc\usbh_msc_scsi.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_stdreq.h)(0x5B8FE0D0)
+I (.\host\Class\MSC\inc\usbh_msc_bot.h)(0x5B8FE0D0)
+I (.\host\Class\MSC\inc\usbh_msc_core.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_ioreq.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_hcs.h)(0x5B8FE0D0)
+I (.\usbconfig\usbh_usr.h)(0x5D843F8C)
+F (.\user\stm32f4xx_it.c)(0x5D84678B)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\stm32f4xx_it.o --omf_browse .\output\stm32f4xx_it.crf --depend .\output\stm32f4xx_it.d)
+I (user\stm32f4xx_it.h)(0x5CEFC481)
+I (.\cmsis\stm32f4xx.h)(0x5D21C805)
+I (.\cmsis\core_cm4.h)(0x5CEFC480)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (.\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (.\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (.\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (.\spl\inc\misc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+I (user\main.h)(0x5CEFC481)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (user\usart.h)(0x5CEFC481)
+I (.\otg\inc\usb_bsp.h)(0x5D8459CE)
+I (.\otg\inc\usb_core.h)(0x5B8FE0D0)
+I (.\usbconfig\usb_conf.h)(0x5D844AE6)
+I (.\otg\inc\usb_regs.h)(0x5D81AC06)
+I (.\otg\inc\usb_defines.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_hcd_int.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_hcd.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_core.h)(0x5D844C19)
+I (.\host\Core\inc\usbh_def.h)(0x5D844BD7)
+I (.\usbconfig\usbh_conf.h)(0x5B8FE0D0)
+F (.\user\usart.c)(0x5CEFC481)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\usart.o --omf_browse .\output\usart.crf --depend .\output\usart.d)
+I (user\usart.h)(0x5CEFC481)
+I (.\cmsis\stm32f4xx.h)(0x5D21C805)
+I (.\cmsis\core_cm4.h)(0x5CEFC480)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (.\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (.\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (.\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (.\spl\inc\misc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+F (.\user\print.c)(0x5CEFC481)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\print.o --omf_browse .\output\print.crf --depend .\output\print.d)
+I (user\print.h)(0x5CEFC481)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\cmsis\stm32f4xx.h)(0x5D21C805)
+I (.\cmsis\core_cm4.h)(0x5CEFC480)
+I (.\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (.\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (.\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (.\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (.\spl\inc\misc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+F (.\cmsis\startup_stm32f40_41xxx.s)(0x5CEFC480)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 525" --pd "STM32F407xx SETA 1"--list .\output\startup_stm32f40_41xxx.lst --xref -o .\output\startup_stm32f40_41xxx.o --depend .\output\startup_stm32f40_41xxx.d)
+F (.\cmsis\system_stm32f4xx.c)(0x5CEFC480)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\system_stm32f4xx.o --omf_browse .\output\system_stm32f4xx.crf --depend .\output\system_stm32f4xx.d)
+I (cmsis\stm32f4xx.h)(0x5D21C805)
+I (cmsis\core_cm4.h)(0x5CEFC480)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (.\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (.\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (.\cmsis\stm32f4xx.h)(0x5D21C805)
+I (.\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (.\spl\inc\misc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+F (.\otg\src\usb_core.c)(0x5D820A1C)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\usb_core.o --omf_browse .\output\usb_core.crf --depend .\output\usb_core.d)
+I (.\otg\inc\usb_core.h)(0x5B8FE0D0)
+I (.\usbconfig\usb_conf.h)(0x5D844AE6)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\otg\inc\usb_regs.h)(0x5D81AC06)
+I (.\otg\inc\usb_defines.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_bsp.h)(0x5D8459CE)
+I (.\cmsis\stm32f4xx.h)(0x5D21C805)
+I (.\cmsis\core_cm4.h)(0x5CEFC480)
+I (.\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (.\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (.\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (.\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (.\spl\inc\misc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+F (.\otg\src\usb_hcd.c)(0x5B8FE0EE)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\usb_hcd.o --omf_browse .\output\usb_hcd.crf --depend .\output\usb_hcd.d)
+I (.\otg\inc\usb_core.h)(0x5B8FE0D0)
+I (.\usbconfig\usb_conf.h)(0x5D844AE6)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\otg\inc\usb_regs.h)(0x5D81AC06)
+I (.\otg\inc\usb_defines.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_hcd.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_bsp.h)(0x5D8459CE)
+I (.\cmsis\stm32f4xx.h)(0x5D21C805)
+I (.\cmsis\core_cm4.h)(0x5CEFC480)
+I (.\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (.\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (.\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (.\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (.\spl\inc\misc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+F (.\otg\src\usb_hcd_int.c)(0x5BB22368)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\usb_hcd_int.o --omf_browse .\output\usb_hcd_int.crf --depend .\output\usb_hcd_int.d)
+I (.\otg\inc\usb_core.h)(0x5B8FE0D0)
+I (.\usbconfig\usb_conf.h)(0x5D844AE6)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\otg\inc\usb_regs.h)(0x5D81AC06)
+I (.\otg\inc\usb_defines.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_hcd_int.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_hcd.h)(0x5B8FE0D0)
+F (.\host\Core\src\usbh_core.c)(0x5B8FE0EF)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\usbh_core.o --omf_browse .\output\usbh_core.crf --depend .\output\usbh_core.d)
+I (.\host\Core\inc\usbh_ioreq.h)(0x5B8FE0D0)
+I (.\usbconfig\usb_conf.h)(0x5D844AE6)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\host\Core\inc\usbh_core.h)(0x5D844C19)
+I (.\otg\inc\usb_hcd.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_regs.h)(0x5D81AC06)
+I (.\otg\inc\usb_core.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_defines.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_def.h)(0x5D844BD7)
+I (.\usbconfig\usbh_conf.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_bsp.h)(0x5D8459CE)
+I (.\cmsis\stm32f4xx.h)(0x5D21C805)
+I (.\cmsis\core_cm4.h)(0x5CEFC480)
+I (.\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (.\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (.\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (.\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (.\spl\inc\misc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+I (.\host\Core\inc\usbh_hcs.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_stdreq.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_hcd_int.h)(0x5B8FE0D0)
+F (.\host\Core\src\usbh_hcs.c)(0x5B8FE0EF)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\usbh_hcs.o --omf_browse .\output\usbh_hcs.crf --depend .\output\usbh_hcs.d)
+I (.\host\Core\inc\usbh_hcs.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_core.h)(0x5D844C19)
+I (.\otg\inc\usb_hcd.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_regs.h)(0x5D81AC06)
+I (.\usbconfig\usb_conf.h)(0x5D844AE6)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\otg\inc\usb_core.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_defines.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_def.h)(0x5D844BD7)
+I (.\usbconfig\usbh_conf.h)(0x5B8FE0D0)
+F (.\host\Core\src\usbh_ioreq.c)(0x5B8FE0EF)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\usbh_ioreq.o --omf_browse .\output\usbh_ioreq.crf --depend .\output\usbh_ioreq.d)
+I (.\host\Core\inc\usbh_ioreq.h)(0x5B8FE0D0)
+I (.\usbconfig\usb_conf.h)(0x5D844AE6)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\host\Core\inc\usbh_core.h)(0x5D844C19)
+I (.\otg\inc\usb_hcd.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_regs.h)(0x5D81AC06)
+I (.\otg\inc\usb_core.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_defines.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_def.h)(0x5D844BD7)
+I (.\usbconfig\usbh_conf.h)(0x5B8FE0D0)
+F (.\host\Core\src\usbh_stdreq.c)(0x5D843EA8)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\usbh_stdreq.o --omf_browse .\output\usbh_stdreq.crf --depend .\output\usbh_stdreq.d)
+I (.\host\Core\inc\usbh_ioreq.h)(0x5B8FE0D0)
+I (.\usbconfig\usb_conf.h)(0x5D844AE6)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\host\Core\inc\usbh_core.h)(0x5D844C19)
+I (.\otg\inc\usb_hcd.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_regs.h)(0x5D81AC06)
+I (.\otg\inc\usb_core.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_defines.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_def.h)(0x5D844BD7)
+I (.\usbconfig\usbh_conf.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_stdreq.h)(0x5B8FE0D0)
+F (.\host\Class\HID\src\usbh_hid_core.c)(0x5D8458EC)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\usbh_hid_core.o --omf_browse .\output\usbh_hid_core.crf --depend .\output\usbh_hid_core.d)
+I (.\host\Class\HID\inc\usbh_hid_core.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_core.h)(0x5D844C19)
+I (.\otg\inc\usb_hcd.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_regs.h)(0x5D81AC06)
+I (.\usbconfig\usb_conf.h)(0x5D844AE6)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\otg\inc\usb_core.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_defines.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_def.h)(0x5D844BD7)
+I (.\usbconfig\usbh_conf.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_stdreq.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_bsp.h)(0x5D8459CE)
+I (.\cmsis\stm32f4xx.h)(0x5D21C805)
+I (.\cmsis\core_cm4.h)(0x5CEFC480)
+I (.\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (.\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (.\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (.\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (.\spl\inc\misc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+I (.\host\Core\inc\usbh_ioreq.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_hcs.h)(0x5B8FE0D0)
+I (.\host\Class\HID\inc\usbh_hid_mouse.h)(0x5D847C24)
+I (.\host\Class\HID\inc\usbh_hid_keybd.h)(0x5D845F33)
+F (.\host\Class\HID\src\usbh_hid_mouse.c)(0x5D846E98)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\usbh_hid_mouse.o --omf_browse .\output\usbh_hid_mouse.crf --depend .\output\usbh_hid_mouse.d)
+I (.\host\Class\HID\inc\usbh_hid_mouse.h)(0x5D847C24)
+I (.\host\Class\HID\inc\usbh_hid_core.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_core.h)(0x5D844C19)
+I (.\otg\inc\usb_hcd.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_regs.h)(0x5D81AC06)
+I (.\usbconfig\usb_conf.h)(0x5D844AE6)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\otg\inc\usb_core.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_defines.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_def.h)(0x5D844BD7)
+I (.\usbconfig\usbh_conf.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_stdreq.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_bsp.h)(0x5D8459CE)
+I (.\cmsis\stm32f4xx.h)(0x5D21C805)
+I (.\cmsis\core_cm4.h)(0x5CEFC480)
+I (.\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (.\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (.\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (.\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (.\spl\inc\misc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+I (.\host\Core\inc\usbh_ioreq.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_hcs.h)(0x5B8FE0D0)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+F (.\host\Class\HID\src\usbh_hid_keybd.c)(0x5D845FD5)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\usbh_hid_keybd.o --omf_browse .\output\usbh_hid_keybd.crf --depend .\output\usbh_hid_keybd.d)
+I (.\host\Class\HID\inc\usbh_hid_keybd.h)(0x5D845F33)
+I (.\usbconfig\usb_conf.h)(0x5D844AE6)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\host\Class\HID\inc\usbh_hid_core.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_core.h)(0x5D844C19)
+I (.\otg\inc\usb_hcd.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_regs.h)(0x5D81AC06)
+I (.\otg\inc\usb_core.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_defines.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_def.h)(0x5D844BD7)
+I (.\usbconfig\usbh_conf.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_stdreq.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_bsp.h)(0x5D8459CE)
+I (.\cmsis\stm32f4xx.h)(0x5D21C805)
+I (.\cmsis\core_cm4.h)(0x5CEFC480)
+I (.\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (.\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (.\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (.\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (.\spl\inc\misc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+I (.\host\Core\inc\usbh_ioreq.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_hcs.h)(0x5B8FE0D0)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+F (.\usbconfig\usb_bsp.c)(0x5D8459D1)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\usb_bsp.o --omf_browse .\output\usb_bsp.crf --depend .\output\usb_bsp.d)
+I (.\otg\inc\usb_bsp.h)(0x5D8459CE)
+I (.\otg\inc\usb_core.h)(0x5B8FE0D0)
+I (.\usbconfig\usb_conf.h)(0x5D844AE6)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\otg\inc\usb_regs.h)(0x5D81AC06)
+I (.\otg\inc\usb_defines.h)(0x5B8FE0D0)
+I (.\cmsis\stm32f4xx.h)(0x5D21C805)
+I (.\cmsis\core_cm4.h)(0x5CEFC480)
+I (.\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (.\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (.\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (.\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (.\spl\inc\misc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+F (.\usbconfig\usbh_usr.c)(0x5D845DF4)(--c99 --gnu -c --cpu Cortex-M4.fp -g -W -O0 --apcs=interwork --split_sections -I .\cmsis -I .\spl\inc -I .\user -I .\usbconfig -I .\host\Class\CDC\inc -I .\host\Class\HID\inc -I .\host\Class\MSC\inc -I .\host\Core\inc -I .\otg\inc-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DUSE_HOST_MODE -DUSE_EMBEDDED_PHY -DVBUS_SENSING_ENABLED-o .\output\usbh_usr.o --omf_browse .\output\usbh_usr.crf --depend .\output\usbh_usr.d)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (usbconfig\usbh_usr.h)(0x5D843F8C)
+I (.\host\Core\inc\usbh_core.h)(0x5D844C19)
+I (.\otg\inc\usb_hcd.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_regs.h)(0x5D81AC06)
+I (.\usbconfig\usb_conf.h)(0x5D844AE6)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\otg\inc\usb_core.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_defines.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_def.h)(0x5D844BD7)
+I (.\usbconfig\usbh_conf.h)(0x5B8FE0D0)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (.\host\Class\MSC\inc\usbh_msc_core.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_stdreq.h)(0x5B8FE0D0)
+I (.\otg\inc\usb_bsp.h)(0x5D8459CE)
+I (.\cmsis\stm32f4xx.h)(0x5D21C805)
+I (.\cmsis\core_cm4.h)(0x5CEFC480)
+I (.\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (.\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (.\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (.\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (.\spl\inc\misc.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (.\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+I (.\host\Core\inc\usbh_ioreq.h)(0x5B8FE0D0)
+I (.\host\Core\inc\usbh_hcs.h)(0x5B8FE0D0)
+I (.\host\Class\MSC\inc\usbh_msc_scsi.h)(0x5B8FE0D0)
+I (.\host\Class\MSC\inc\usbh_msc_bot.h)(0x5B8FE0D0)

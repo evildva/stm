@@ -1,0 +1,9 @@
+.\output\usb_hcd_int.o: otg\src\usb_hcd_int.c
+.\output\usb_hcd_int.o: .\otg\inc\usb_core.h
+.\output\usb_hcd_int.o: .\usbconfig\usb_conf.h
+.\output\usb_hcd_int.o: .\usbconfig\usb_conf.h
+.\output\usb_hcd_int.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\usb_hcd_int.o: .\otg\inc\usb_regs.h
+.\output\usb_hcd_int.o: .\otg\inc\usb_defines.h
+.\output\usb_hcd_int.o: .\otg\inc\usb_hcd_int.h
+.\output\usb_hcd_int.o: .\otg\inc\usb_hcd.h

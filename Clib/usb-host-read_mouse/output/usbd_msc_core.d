@@ -1,0 +1,16 @@
+.\output\usbd_msc_core.o: device\Class\msc\src\usbd_msc_core.c
+.\output\usbd_msc_core.o: .\device\Class\msc\inc\usbd_msc_mem.h
+.\output\usbd_msc_core.o: .\device\Core\inc\usbd_def.h
+.\output\usbd_msc_core.o: .\usbconfig\usbd_conf.h
+.\output\usbd_msc_core.o: .\usbconfig\usb_conf.h
+.\output\usbd_msc_core.o: .\usbconfig\usb_conf.h
+.\output\usbd_msc_core.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\usbd_msc_core.o: .\device\Class\msc\inc\usbd_msc_core.h
+.\output\usbd_msc_core.o: .\device\Core\inc\usbd_ioreq.h
+.\output\usbd_msc_core.o: .\device\Core\inc\usbd_core.h
+.\output\usbd_msc_core.o: .\otg\inc\usb_dcd.h
+.\output\usbd_msc_core.o: .\otg\inc\usb_core.h
+.\output\usbd_msc_core.o: .\otg\inc\usb_regs.h
+.\output\usbd_msc_core.o: .\otg\inc\usb_defines.h
+.\output\usbd_msc_core.o: .\device\Class\msc\inc\usbd_msc_bot.h
+.\output\usbd_msc_core.o: .\device\Core\inc\usbd_req.h

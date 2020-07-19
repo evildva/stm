@@ -1,0 +1,103 @@
+stm32f4_lcd-system_stm32f4xx.o: system_stm32f4xx.c stm32f4xx.h \
+ ../cmsis/core_cm4.h /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h \
+ /usr/include/newlib/stdint.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/features.h /usr/include/newlib/_newlib_version.h \
+ /usr/include/newlib/sys/_intsup.h /usr/include/newlib/sys/_stdint.h \
+ ../cmsis/core_cmInstr.h ../cmsis/core_cmFunc.h ../cmsis/core_cmSimd.h \
+ ../cmsis/system_stm32f4xx.h stm32f4xx_conf.h ../spl/inc/stm32f4xx_adc.h \
+ ../spl/inc/stm32f4xx.h ../spl/inc/stm32f4xx_crc.h \
+ ../spl/inc/stm32f4xx_dbgmcu.h ../spl/inc/stm32f4xx_dma.h \
+ ../spl/inc/stm32f4xx_exti.h ../spl/inc/stm32f4xx_flash.h \
+ ../spl/inc/stm32f4xx_gpio.h ../spl/inc/stm32f4xx_i2c.h \
+ ../spl/inc/stm32f4xx_iwdg.h ../spl/inc/stm32f4xx_pwr.h \
+ ../spl/inc/stm32f4xx_rcc.h ../spl/inc/stm32f4xx_rtc.h \
+ ../spl/inc/stm32f4xx_sdio.h ../spl/inc/stm32f4xx_spi.h \
+ ../spl/inc/stm32f4xx_syscfg.h ../spl/inc/stm32f4xx_tim.h \
+ ../spl/inc/stm32f4xx_usart.h ../spl/inc/stm32f4xx_wwdg.h \
+ ../spl/inc/misc.h ../spl/inc/stm32f4xx_cryp.h \
+ ../spl/inc/stm32f4xx_hash.h ../spl/inc/stm32f4xx_rng.h \
+ ../spl/inc/stm32f4xx_can.h ../spl/inc/stm32f4xx_dac.h \
+ ../spl/inc/stm32f4xx_dcmi.h ../spl/inc/stm32f4xx_fsmc.h
+
+stm32f4xx.h:
+
+../cmsis/core_cm4.h:
+
+/usr/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h:
+
+/usr/include/newlib/stdint.h:
+
+/usr/include/newlib/machine/_default_types.h:
+
+/usr/include/newlib/sys/features.h:
+
+/usr/include/newlib/_newlib_version.h:
+
+/usr/include/newlib/sys/_intsup.h:
+
+/usr/include/newlib/sys/_stdint.h:
+
+../cmsis/core_cmInstr.h:
+
+../cmsis/core_cmFunc.h:
+
+../cmsis/core_cmSimd.h:
+
+../cmsis/system_stm32f4xx.h:
+
+stm32f4xx_conf.h:
+
+../spl/inc/stm32f4xx_adc.h:
+
+../spl/inc/stm32f4xx.h:
+
+../spl/inc/stm32f4xx_crc.h:
+
+../spl/inc/stm32f4xx_dbgmcu.h:
+
+../spl/inc/stm32f4xx_dma.h:
+
+../spl/inc/stm32f4xx_exti.h:
+
+../spl/inc/stm32f4xx_flash.h:
+
+../spl/inc/stm32f4xx_gpio.h:
+
+../spl/inc/stm32f4xx_i2c.h:
+
+../spl/inc/stm32f4xx_iwdg.h:
+
+../spl/inc/stm32f4xx_pwr.h:
+
+../spl/inc/stm32f4xx_rcc.h:
+
+../spl/inc/stm32f4xx_rtc.h:
+
+../spl/inc/stm32f4xx_sdio.h:
+
+../spl/inc/stm32f4xx_spi.h:
+
+../spl/inc/stm32f4xx_syscfg.h:
+
+../spl/inc/stm32f4xx_tim.h:
+
+../spl/inc/stm32f4xx_usart.h:
+
+../spl/inc/stm32f4xx_wwdg.h:
+
+../spl/inc/misc.h:
+
+../spl/inc/stm32f4xx_cryp.h:
+
+../spl/inc/stm32f4xx_hash.h:
+
+../spl/inc/stm32f4xx_rng.h:
+
+../spl/inc/stm32f4xx_can.h:
+
+../spl/inc/stm32f4xx_dac.h:
+
+../spl/inc/stm32f4xx_dcmi.h:
+
+../spl/inc/stm32f4xx_fsmc.h:

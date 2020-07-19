@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: a b, c, LIC=3UUKP-MZGA4-16YQV-PECXA-P11V0-NNPN3
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.25.2.0
+Toolchain Path:  D:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+C:\Users\GuilongYuangaoyue\Desktop\STM32ZGT6\emwin\emwin.uvprojx
+Project File Date:  05/30/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\keil\ARM\ARMCC\Bin'
+Build target 'pro'
+compiling stm32f4xx_crc.c...
+compiling misc.c...
+compiling stm32f4xx_dma.c...
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_fsmc.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_tim.c...
+compiling main.c...
+user\main.c(7): warning:  #1-D: last line of file ends without a newline
+  }
+user\main.c: 1 warning, 0 errors
+compiling GUIConf.c...
+compiling GUIDRV_Template.c...
+.\emwin\inc\LCD_Private.h(57): error:  #5: cannot open source input file "LCDConf.h": No such file or directory
+  #include "LCDConf.h"
+emwin\config\GUIDRV_Template.c: 0 warnings, 1 error
+compiling LCDConf_FlexColor_Template.c...
+compiling LCDConf_Lin_Template.c...
+emwin\config\LCDConf_Lin_Template.c(164): error:  #20: identifier "CUSTOM_LCD_CopyBuffer" is undefined
+    LCD_SetDevFunc(0, LCD_DEVFUNC_COPYBUFFER, (void(*)(void))CUSTOM_LCD_CopyBuffer);
+emwin\config\LCDConf_Lin_Template.c(165): error:  #20: identifier "CUSTOM_LCD_CopyRect" is undefined
+    LCD_SetDevFunc(0, LCD_DEVFUNC_COPYRECT,   (void(*)(void))CUSTOM_LCD_CopyRect);
+emwin\config\LCDConf_Lin_Template.c(166): error:  #20: identifier "CUSTOM_LCD_FillRect" is undefined
+    LCD_SetDevFunc(0, LCD_DEVFUNC_FILLRECT, (void(*)(void))CUSTOM_LCD_FillRect);
+emwin\config\LCDConf_Lin_Template.c(167): error:  #20: identifier "CUSTOM_LCD_DrawBitmap8bpp" is undefined
+    LCD_SetDevFunc(0, LCD_DEVFUNC_DRAWBMP_8BPP, (void(*)(void))CUSTOM_LCD_DrawBitmap8bpp); 
+emwin\config\LCDConf_Lin_Template.c(168): error:  #20: identifier "CUSTOM_LCD_DrawBitmap16bpp" is undefined
+    LCD_SetDevFunc(0, LCD_DEVFUNC_DRAWBMP_16BPP, (void(*)(void))CUSTOM_LCD_DrawBitmap16bpp);
+emwin\config\LCDConf_Lin_Template.c(211): warning:  #550-D: variable "p"  was set but never used
+      LCD_X_SETVRAMADDR_INFO * p;
+emwin\config\LCDConf_Lin_Template.c(220): warning:  #550-D: variable "p"  was set but never used
+      LCD_X_SETORG_INFO * p;
+emwin\config\LCDConf_Lin_Template.c(229): warning:  #550-D: variable "p"  was set but never used
+      LCD_X_SHOWBUFFER_INFO * p;
+emwin\config\LCDConf_Lin_Template.c(238): warning:  #550-D: variable "p"  was set but never used
+      LCD_X_SETLUTENTRY_INFO * p;
+emwin\config\LCDConf_Lin_Template.c: 4 warnings, 5 errors
+compiling SIMConf.c...
+compiling system_stm32f4xx.c...
+".\output\emwin.axf" - 6 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
+                Keil.STM32F4xx_DFP.2.13.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_pro
+  D:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>

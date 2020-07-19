@@ -1,0 +1,369 @@
+Dependencies for Project 'template', Target 'pro': (DO NOT MODIFY !)
+F (..\template\spl\src\stm32f4xx_gpio.c)(0x5CEFC481)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\template\cmsis -I ..\template\spl\inc -I .\user-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o .\output\stm32f4xx_gpio.o --omf_browse .\output\stm32f4xx_gpio.crf --depend .\output\stm32f4xx_gpio.d)
+I (..\template\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (..\template\cmsis\stm32f4xx.h)(0x5D21C805)
+I (..\template\cmsis\core_cm4.h)(0x5CEFC480)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\template\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (..\template\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC482)
+I (..\template\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\misc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+F (..\template\spl\src\stm32f4xx_rcc.c)(0x5CEFC481)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\template\cmsis -I ..\template\spl\inc -I .\user-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o .\output\stm32f4xx_rcc.o --omf_browse .\output\stm32f4xx_rcc.crf --depend .\output\stm32f4xx_rcc.d)
+I (..\template\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (..\template\cmsis\stm32f4xx.h)(0x5D21C805)
+I (..\template\cmsis\core_cm4.h)(0x5CEFC480)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\template\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (..\template\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC482)
+I (..\template\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\misc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+F (..\template\spl\src\stm32f4xx_usart.c)(0x5CEFC481)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\template\cmsis -I ..\template\spl\inc -I .\user-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o .\output\stm32f4xx_usart.o --omf_browse .\output\stm32f4xx_usart.crf --depend .\output\stm32f4xx_usart.d)
+I (..\template\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (..\template\cmsis\stm32f4xx.h)(0x5D21C805)
+I (..\template\cmsis\core_cm4.h)(0x5CEFC480)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\template\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (..\template\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC482)
+I (..\template\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\misc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+F (..\template\spl\src\misc.c)(0x5CEFC481)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\template\cmsis -I ..\template\spl\inc -I .\user-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o .\output\misc.o --omf_browse .\output\misc.crf --depend .\output\misc.d)
+I (..\template\spl\inc\misc.h)(0x5CEFC481)
+I (..\template\cmsis\stm32f4xx.h)(0x5D21C805)
+I (..\template\cmsis\core_cm4.h)(0x5CEFC480)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\template\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (..\template\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC482)
+I (..\template\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+F (..\template\spl\src\stm32f4xx_pwr.c)(0x5CEFC481)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\template\cmsis -I ..\template\spl\inc -I .\user-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o .\output\stm32f4xx_pwr.o --omf_browse .\output\stm32f4xx_pwr.crf --depend .\output\stm32f4xx_pwr.d)
+I (..\template\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (..\template\cmsis\stm32f4xx.h)(0x5D21C805)
+I (..\template\cmsis\core_cm4.h)(0x5CEFC480)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\template\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (..\template\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC482)
+I (..\template\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\misc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+F (.\user\main.c)(0x5D70B23F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\template\cmsis -I ..\template\spl\inc -I .\user-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (user\main.h)(0x5D1B3AD8)
+I (user\usart.h)(0x5CEFC482)
+I (..\template\cmsis\stm32f4xx.h)(0x5D21C805)
+I (..\template\cmsis\core_cm4.h)(0x5CEFC480)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\template\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (..\template\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC482)
+I (..\template\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\misc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+I (user\print.h)(0x5D0C8DA8)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (.\user\stm32f4xx_it.c)(0x5D1B2D11)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\template\cmsis -I ..\template\spl\inc -I .\user-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o .\output\stm32f4xx_it.o --omf_browse .\output\stm32f4xx_it.crf --depend .\output\stm32f4xx_it.d)
+I (user\stm32f4xx_it.h)(0x5CEFC482)
+I (..\template\cmsis\stm32f4xx.h)(0x5D21C805)
+I (..\template\cmsis\core_cm4.h)(0x5CEFC480)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\template\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (..\template\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC482)
+I (..\template\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\misc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+I (user\main.h)(0x5D1B3AD8)
+I (user\usart.h)(0x5CEFC482)
+I (user\print.h)(0x5D0C8DA8)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+F (.\user\usart.c)(0x5D70B23F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\template\cmsis -I ..\template\spl\inc -I .\user-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o .\output\usart.o --omf_browse .\output\usart.crf --depend .\output\usart.d)
+I (user\usart.h)(0x5CEFC482)
+I (..\template\cmsis\stm32f4xx.h)(0x5D21C805)
+I (..\template\cmsis\core_cm4.h)(0x5CEFC480)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\template\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (..\template\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC482)
+I (..\template\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\misc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+F (.\user\print.c)(0x5CEFC482)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\template\cmsis -I ..\template\spl\inc -I .\user-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o .\output\print.o --omf_browse .\output\print.crf --depend .\output\print.d)
+I (user\print.h)(0x5D0C8DA8)
+I (D:\keil\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (D:\keil\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\template\cmsis\stm32f4xx.h)(0x5D21C805)
+I (..\template\cmsis\core_cm4.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (..\template\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC482)
+I (..\template\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\misc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+F (..\template\cmsis\system_stm32f4xx.c)(0x5CEFC480)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\template\cmsis -I ..\template\spl\inc -I .\user-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o .\output\system_stm32f4xx.o --omf_browse .\output\system_stm32f4xx.crf --depend .\output\system_stm32f4xx.d)
+I (..\template\cmsis\stm32f4xx.h)(0x5D21C805)
+I (..\template\cmsis\core_cm4.h)(0x5CEFC480)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\template\cmsis\core_cmInstr.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmFunc.h)(0x5CEFC480)
+I (..\template\cmsis\core_cmSimd.h)(0x5CEFC480)
+I (..\template\cmsis\system_stm32f4xx.h)(0x5CEFC480)
+I (.\user\stm32f4xx_conf.h)(0x5CEFC482)
+I (..\template\spl\inc\stm32f4xx_adc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_crc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dbgmcu.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dma.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_exti.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_flash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_gpio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_i2c.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_iwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_pwr.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rcc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rtc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_sdio.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_spi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_syscfg.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_tim.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_usart.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_wwdg.h)(0x5CEFC481)
+I (..\template\spl\inc\misc.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_cryp.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_hash.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_rng.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_can.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dac.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_dcmi.h)(0x5CEFC481)
+I (..\template\spl\inc\stm32f4xx_fsmc.h)(0x5CEFC481)
+F (..\template\cmsis\startup_stm32f40_41xxx.s)(0x5CEFC480)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_pro-ID:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 525" --pd "STM32F407xx SETA 1"--list .\output\startup_stm32f40_41xxx.lst --xref -o .\output\startup_stm32f40_41xxx.o --depend .\output\startup_stm32f40_41xxx.d)

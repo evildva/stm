@@ -1,0 +1,15 @@
+.\output\usbd_cdc_core.o: device\Class\cdc\src\usbd_cdc_core.c
+.\output\usbd_cdc_core.o: ..\usb-device\device\Class\cdc\inc\usbd_cdc_core.h
+.\output\usbd_cdc_core.o: .\device\Core\inc\usbd_ioreq.h
+.\output\usbd_cdc_core.o: .\device\Core\inc\usbd_def.h
+.\output\usbd_cdc_core.o: .\usbconfig\usbd_conf.h
+.\output\usbd_cdc_core.o: .\usbconfig\usb_conf.h
+.\output\usbd_cdc_core.o: .\usbconfig\usb_conf.h
+.\output\usbd_cdc_core.o: .\device\Core\inc\usbd_core.h
+.\output\usbd_cdc_core.o: .\otg\inc\usb_dcd.h
+.\output\usbd_cdc_core.o: .\otg\inc\usb_core.h
+.\output\usbd_cdc_core.o: .\otg\inc\usb_regs.h
+.\output\usbd_cdc_core.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\usbd_cdc_core.o: .\otg\inc\usb_defines.h
+.\output\usbd_cdc_core.o: .\usbconfig\usbd_desc.h
+.\output\usbd_cdc_core.o: .\device\Core\inc\usbd_req.h

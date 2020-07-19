@@ -1,0 +1,56 @@
+AP 模式下 TCP serve
+
+AT+CWMODE=2                                     开启 AP 模式
+AT+CWSAP="ESP8266","0123456789",11,0            设置模块的 wifi 和密码
+AT+CIPSERVER=1,8899                             设置模块服务器端口
+AT+CIPSEND=0,11                                 进入数据发送模式为11个字节
+
+
+
+
+STA 模式下 TCP serve
+
+AT+CWMODE=1                                     设置为STA模式
+AT+CWLAP                                        查询附近 WIFI
+AT+CWJAP="123123","12345678"                    连接 WIFI
+AT+CIFSR                                        查看路由器分配给模组的IP地址
+AT+CIPMUX=1                                     打开多连接
+AT+CIPSERVER=1,8899                             设置模块服务器端口
+AT+CIPSEND=0,11                                 进入数据发送模式为11个字节
+
+
+
+
+TCP  client 
+
+AT+CWMODE=1                                     设置模组为STA模式
+AT+CWLAP                                        查询附近 WIFI
+AT+CWJAP="123123","12345678"                    连接路由器的 WIFI
+AT+CIFSR                                        查看路由器分配给模组的IP地址
+AT+CIPMUX=0                                     设置单连接
+AT+CIPMODE=1                                    设置透传模式
+AT+CIPSTART="TCP","192.168.43.104",8899         连接TCP服务器
+AT+CIPSEND                                      开始发送数据
++++                                             注意退出透传
+
+
+
+
+UDP 多连接模式
+
+AT+CWMODE= 1                                    设置 STA模式
+AT+CWLAP                                        查询附近 WIFI
+AT+CWJAP="123123","12345678"                    连接 WIFI
+AT+CIFSR                                        查看模块当前的 IP
+AT+CIPMUX=1                                     打开模块多连接
+AT+CIPSTART=0,"UDP","255.255.255.255",50000,1000, 0       建立 UDP 连接 UDP server 设置 50000，UDP client 设置的端口 1000
+AT+CIPSEND=0,11                                 模块发送数据模式为 9 个字节
+
+
+AT+CWMODE=3
+AT+CWSAP="esp","1234",10,0
+AT+RST
+AT+CIPMUX=1
+AT+CIPSERVER=1,80
+AT+CIPSTATUS
+AT+CIPSEND=0,20

@@ -1,0 +1,11 @@
+.\output\gui_x_os.o: emwin\OS\GUI_X_OS.c
+.\output\gui_x_os.o: .\emwin\inc\GUI.h
+.\output\gui_x_os.o: .\emwin\inc\GUI_ConfDefaults.h
+.\output\gui_x_os.o: .\emwin\Config\GUIConf.h
+.\output\gui_x_os.o: .\emwin\inc\GUI_Type.h
+.\output\gui_x_os.o: .\emwin\inc\LCD.h
+.\output\gui_x_os.o: .\emwin\inc\Global.h
+.\output\gui_x_os.o: .\emwin\inc\GUI_Version.h
+.\output\gui_x_os.o: .\cmsis\cmsis_os.h
+.\output\gui_x_os.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\gui_x_os.o: D:\keil\ARM\ARMCC\Bin\..\include\stddef.h

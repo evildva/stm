@@ -1,0 +1,9 @@
+.\output\lv_area.o: lvgl\lv_misc\lv_area.c
+.\output\lv_area.o: .\lvgl\lv_conf.h
+.\output\lv_area.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\lv_area.o: .\lvgl\lv_conf_checker.h
+.\output\lv_area.o: lvgl\lv_misc\lv_area.h
+.\output\lv_area.o: D:\keil\ARM\ARMCC\Bin\..\include\string.h
+.\output\lv_area.o: D:\keil\ARM\ARMCC\Bin\..\include\stdbool.h
+.\output\lv_area.o: .\lvgl\lv_conf.h
+.\output\lv_area.o: lvgl\lv_misc\lv_math.h

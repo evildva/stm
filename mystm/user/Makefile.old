@@ -1,0 +1,16 @@
+template:
+
+VPATH=./cmsis:./spl
+
+obj=main.o fonts.o usart.o FSMClcd.o stm32f4xx_it.o 
+
+all:$(obj)
+
+$(obj):%.o:%.c
+	$(CC) -c $< -o $@
+
+clean:
+	rm *.o
+
+.PHONY:clean
+

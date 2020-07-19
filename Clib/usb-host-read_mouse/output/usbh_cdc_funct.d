@@ -1,0 +1,16 @@
+.\output\usbh_cdc_funct.o: host\Class\CDC\src\usbh_cdc_funct.c
+.\output\usbh_cdc_funct.o: .\host\Class\CDC\inc\usbh_cdc_funct.h
+.\output\usbh_cdc_funct.o: .\host\Core\inc\usbh_core.h
+.\output\usbh_cdc_funct.o: .\otg\inc\usb_hcd.h
+.\output\usbh_cdc_funct.o: .\otg\inc\usb_regs.h
+.\output\usbh_cdc_funct.o: .\usbconfig\usb_conf.h
+.\output\usbh_cdc_funct.o: .\usbconfig\usb_conf.h
+.\output\usbh_cdc_funct.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\usbh_cdc_funct.o: .\otg\inc\usb_core.h
+.\output\usbh_cdc_funct.o: .\otg\inc\usb_defines.h
+.\output\usbh_cdc_funct.o: .\host\Core\inc\usbh_def.h
+.\output\usbh_cdc_funct.o: .\usbconfig\usbh_conf.h
+.\output\usbh_cdc_funct.o: .\host\Core\inc\usbh_stdreq.h
+.\output\usbh_cdc_funct.o: .\otg\inc\usb_bsp.h
+.\output\usbh_cdc_funct.o: .\host\Core\inc\usbh_ioreq.h
+.\output\usbh_cdc_funct.o: .\host\Core\inc\usbh_hcs.h

@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp
+".\output\stm32f4xx_gpio.o"
+".\output\stm32f4xx_usart.o"
+".\output\stm32f4xx_rcc.o"
+".\output\misc.o"
+".\output\main.o"
+".\output\stm32f4xx_it.o"
+".\output\usart.o"
+".\output\startup_stm32f40_41xxx.o"
+".\output\system_stm32f4xx.o"
+".\output\usb_core.o"
+".\output\usb_dcd.o"
+".\output\usb_dcd_int.o"
+".\output\usbd_core.o"
+".\output\usbd_ioreq.o"
+".\output\usbd_req.o"
+".\output\usbd_hid_core.o"
+".\output\usb_bsp.o"
+".\output\usbd_usr.o"
+".\output\usbd_desc.o"
+--library_type=microlib --strict --scatter ".\output\temp.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\output\temp.map" -o .\output\temp.axf

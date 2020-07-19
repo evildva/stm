@@ -1,0 +1,89 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 preserve8
+    2 00000000                 area             asmcode,code,readonly
+    3 00000000                 export           addnum
+    4 00000000                 import           multiple
+    5 00000000                 import           ma
+    6 00000000                 import           mb
+    7 00000000         
+    8 00000000         addnum
+    9 00000000 B503            push             {r0,r1,LR}
+   10 00000002 4806            ldr              r0,=ma
+   11 00000004 4906            ldr              r1,=mb
+   12 00000006 6800            ldr              r0,[r0]
+   13 00000008 6809            ldr              r1,[r1]
+   14 0000000A F7FF FFFE       bl               multiple
+   15 0000000E BC06            pop              {r1,r2}
+   16 00000010 4408            add              r0,r0,r1
+   17 00000012 4410            add              r0,r0,r2
+   18 00000014 F85D EB04       pop              {lr}        ;or pop {pc}
+   19 00000018 4770            bx               lr
+   20 0000001A         
+   21 0000001A                 end
+              00 00 00000000 
+              00000000 
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
+erwork --depend=.\output\asm.d -o.\output\asm.o -I.\RTE\_pro -ID:\keil\ARM\PACK
+\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\keil\
+ARM\CMSIS\Include --predefine="__UVISION_VERSION SETA 525" --predefine="STM32F4
+07xx SETA 1" --list=.\output\asm.lst user\asm.S
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+addnum 00000000
+
+Symbol: addnum
+   Definitions
+      At line 8 in file user\asm.S
+   Uses
+      At line 3 in file user\asm.S
+Comment: addnum used once
+asmcode 00000000
+
+Symbol: asmcode
+   Definitions
+      At line 2 in file user\asm.S
+   Uses
+      None
+Comment: asmcode unused
+2 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+External symbols
+
+ma 00000000
+
+Symbol: ma
+   Definitions
+      At line 5 in file user\asm.S
+   Uses
+      At line 10 in file user\asm.S
+Comment: ma used once
+mb 00000000
+
+Symbol: mb
+   Definitions
+      At line 6 in file user\asm.S
+   Uses
+      At line 11 in file user\asm.S
+Comment: mb used once
+multiple 00000000
+
+Symbol: multiple
+   Definitions
+      At line 4 in file user\asm.S
+   Uses
+      At line 14 in file user\asm.S
+Comment: multiple used once
+3 symbols
+340 symbols in table

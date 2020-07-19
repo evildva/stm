@@ -1,0 +1,9 @@
+.\output\lcdconf_lin_template.o: emwin\config\LCDConf_Lin_Template.c
+.\output\lcdconf_lin_template.o: .\emwin\inc\GUI.h
+.\output\lcdconf_lin_template.o: .\emwin\inc\GUI_ConfDefaults.h
+.\output\lcdconf_lin_template.o: .\emwin\config\GUIConf.h
+.\output\lcdconf_lin_template.o: .\emwin\inc\GUI_Type.h
+.\output\lcdconf_lin_template.o: .\emwin\inc\LCD.h
+.\output\lcdconf_lin_template.o: .\emwin\inc\Global.h
+.\output\lcdconf_lin_template.o: .\emwin\inc\GUI_Version.h
+.\output\lcdconf_lin_template.o: .\emwin\inc\GUIDRV_Lin.h

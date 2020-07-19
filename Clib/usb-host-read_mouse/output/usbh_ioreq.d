@@ -1,0 +1,13 @@
+.\output\usbh_ioreq.o: host\Core\src\usbh_ioreq.c
+.\output\usbh_ioreq.o: .\host\Core\inc\usbh_ioreq.h
+.\output\usbh_ioreq.o: .\usbconfig\usb_conf.h
+.\output\usbh_ioreq.o: .\usbconfig\usb_conf.h
+.\output\usbh_ioreq.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\usbh_ioreq.o: .\host\Core\inc\usbh_core.h
+.\output\usbh_ioreq.o: .\otg\inc\usb_hcd.h
+.\output\usbh_ioreq.o: .\otg\inc\usb_regs.h
+.\output\usbh_ioreq.o: .\otg\inc\usb_core.h
+.\output\usbh_ioreq.o: .\otg\inc\usb_defines.h
+.\output\usbh_ioreq.o: .\host\Core\inc\usbh_def.h
+.\output\usbh_ioreq.o: .\usbconfig\usbh_conf.h
+.\output\usbh_ioreq.o: .\host\Core\inc\usbh_def.h

@@ -1,0 +1,17 @@
+.\output\serial_line_probe.o: serial\serial_line_probe.c
+.\output\serial_line_probe.o: .\serial\serial.h
+.\output\serial_line_probe.o: .\ucos\uC-CPU\ARM-Cortex-M4\RealView\cpu.h
+.\output\serial_line_probe.o: .\ucos\uC-CPU\cpu_def.h
+.\output\serial_line_probe.o: .\ucos\os_conf\cpu_cfg.h
+.\output\serial_line_probe.o: .\ucos\uC-LIB\lib_def.h
+.\output\serial_line_probe.o: .\ucos\uC-LIB\lib_ascii.h
+.\output\serial_line_probe.o: .\ucos\uC-LIB\lib_str.h
+.\output\serial_line_probe.o: .\ucos\os_conf\lib_cfg.h
+.\output\serial_line_probe.o: .\ucos\uC-LIB\lib_mem.h
+.\output\serial_line_probe.o: .\ucos\uC-CPU\cpu_core.h
+.\output\serial_line_probe.o: .\ucos\uC-LIB\lib_mem.h
+.\output\serial_line_probe.o: .\ucos\os_conf\app_cfg.h
+.\output\serial_line_probe.o: .\serial\serial_buf.h
+.\output\serial_line_probe.o: .\serial\serial_type.h
+.\output\serial_line_probe.o: .\serial\serial_line_dflt.h
+.\output\serial_line_probe.o: .\serial\serial_line_probe.h

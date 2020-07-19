@@ -1,0 +1,11 @@
+.\output\lv_mem.o: lvgl\lv_misc\lv_mem.c
+.\output\lv_mem.o: lvgl\lv_misc\lv_mem.h
+.\output\lv_mem.o: .\lvgl\lv_conf.h
+.\output\lv_mem.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\lv_mem.o: .\lvgl\lv_conf_checker.h
+.\output\lv_mem.o: D:\keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\lv_mem.o: lvgl\lv_misc\lv_log.h
+.\output\lv_mem.o: .\lvgl\lv_conf.h
+.\output\lv_mem.o: lvgl\lv_misc\lv_types.h
+.\output\lv_mem.o: lvgl\lv_misc\lv_math.h
+.\output\lv_mem.o: D:\keil\ARM\ARMCC\Bin\..\include\string.h

@@ -1,0 +1,12 @@
+.\output\lv_font.o: lvgl\lv_font\lv_font.c
+.\output\lv_font.o: lvgl\lv_font\lv_font.h
+.\output\lv_font.o: .\lvgl\lv_conf.h
+.\output\lv_font.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\lv_font.o: .\lvgl\lv_conf_checker.h
+.\output\lv_font.o: D:\keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\lv_font.o: D:\keil\ARM\ARMCC\Bin\..\include\stdbool.h
+.\output\lv_font.o: lvgl\lv_font\lv_symbol_def.h
+.\output\lv_font.o: .\lvgl\lv_conf.h
+.\output\lv_font.o: lvgl\lv_font\../lv_misc/lv_utils.h
+.\output\lv_font.o: lvgl\lv_font\../lv_misc/lv_log.h
+.\output\lv_font.o: .\lvgl\lv_conf.h
